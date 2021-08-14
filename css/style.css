@@ -1,0 +1,230 @@
+body{
+    background-color: #f5f5f5;
+    
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+
+/*************common styles****************/
+.main-heading-color{
+color: #1e1e1e;
+font-weight: 600;
+}
+.main-paragraph-color{
+    color: #4e4e4e;
+}
+.main-heading-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+     }
+/***************Home section***************/
+
+#Home{
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: white;
+margin-bottom: 40px;
+}
+#Home a{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+#Home a:hover{
+   color: white;
+}
+.bg-color-above-img{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+}
+#Home h1{
+    font-size: 72px;
+    line-height: 86px;
+}
+#Home p{
+font-size: 40px;
+line-height: 72px;
+}
+#home .DevFolio{
+font-size: 30px;
+}
+.nav{
+    padding: 20px 50px;
+}
+/***************About section***************/
+#About{
+    margin-bottom: 50px;
+}
+#About .container{
+    background-color: white;
+    margin-top: 50PX;
+   
+}
+.about-desc h5{
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 40px;
+}
+.about-desc p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.about-desc h5::before{
+    
+        content: '';
+        position: absolute;
+        height: 3px;
+        background-color: #0078ff;
+        width: 100px;
+        top: 45px;
+    }
+    /***************services section***************/
+   #Services .container-fluid , #portfolio .container-fluid{
+       padding: 80px;
+   }
+   #Services h2, #portfolio h2{
+       font-size: 22px;
+       font-weight: 500;
+       line-height: 27px;
+   }
+    .heading-line{
+        width: 50px;
+        height: 5px;
+        background-color: #0078ff ;
+    }
+    .icons-style{
+        border: 10px solid rgb(0%, 47%, 100%) ;
+        padding: 30px;
+        transition: all 500ms;
+    }
+    .icons-style:hover{
+        background-color: rgb(0%, 47%, 100%);
+        color: white;
+        border-color: rgb(80%, 88%, 97%);
+    }
+    /***************achievments section***************/
+#achievments{
+    background-image: url('../images/post-3.jpg');
+    background-attachment: fixed;
+    
+    background-size: 100% 100%;
+    color: white;
+}
+.back-color{
+   background-color:  rgba(7%, 38%, 74%,0.7) ;
+   padding: 50px 0px;
+}
+#achievments i{
+    border: 10px solid white;
+    padding: 20px;
+    margin-bottom: 15px;
+   
+}
+#achievments p{
+    font-size: 32px;
+}
+
+    /***************portfolio section***************/
+#portfolio{
+        padding: 80px 0px 0px 0px;
+}
+.plus-ico{
+color: rgb(0%, 47%, 100%);
+}
+.web-design{
+    color: rgb(12%, 53%, 100%);
+}
+.portfolio-img{
+    transition: all 600ms;
+}
+.works:hover .portfolio-img{
+    transform: scale(1.2);
+}
+.img-box{overflow: hidden;}
+    /***************curousels section***************/
+#carousels{
+    color: white;
+    background-image: url('../images/overlay-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+#carousels p{
+    font-weight: 300;
+    font-size: 20px;
+}
+.back-color-add{
+    padding: 80px 0px;
+}
+.indicator-style{
+    width: 10px  !important;
+    height: 10px !important;
+}
+/***************blog***********/
+#blog{
+    padding: 80px 40px;
+}
+.blog-foot{
+height: 60px !important;
+}
+.blog-foot img{
+    height: 60%;
+    margin: 0px 5px;
+}
+.bf-bg{
+    background-color: rgb(97%, 97%, 97%);
+}
+/*****contact*******/
+#contact{
+    background-image: url('../images/overlay-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact-form h2::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    top: 50px;
+    
+}
+.contact-form p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.con{
+    padding: 100px 120px;
+}
+.contact-form i{
+    color: #0078ff;
+}
+.contact-form  .icons-style{
+    border: 5px solid rgb(0%, 47%, 100%) ;
+    padding: 10px;
+    transition: all 500ms;
+    color: black;
+}
+.contact-form  .icons-style:hover{
+    background-color: rgb(0%, 47%, 100%);
+    color: white;
+    border-color: rgb(80%, 88%, 97%);
+}
+.footer
+{
+    color: white;
+    background-color: rgb(0%, 38%, 83%);
+   text-align: center;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
